@@ -17,6 +17,6 @@ Welcome to Day 1 of my Verilog 50-Day Challenge focused on becoming a VLSI Front
 - VS Code  
 - Git & GitHub
 
-This challenge helps strengthen my foundation in digital logic design and prepares me for more advanced topics in RTL development. Next up is **Day 2: Half Adder and Full Adder using gate-level and dataflow modeling**. Follow along for daily updates and practical Verilog projects!
+This challenge helps strengthen my foundation in digital logic design and prepares me for more advanced topics in RTL development. Next up is **Day 2: Half Adder and Full Adder using dataflow modeling**. Follow along for daily updates and practical Verilog projects!
 
 > 🔗 [GitHub Repo](https://github.com/dedeep-vlsi-fe-engg/verilog-50day-challenge.git)
