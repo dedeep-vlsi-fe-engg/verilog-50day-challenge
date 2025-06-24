@@ -6,7 +6,7 @@ module tff_gl(
     output reg Q,
     output Qn
 );
-
+initial Q = 0;
 assign Qn = ~Q;
 
 always @(posedge clk) begin
