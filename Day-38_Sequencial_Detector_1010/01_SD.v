@@ -1,20 +1,18 @@
-module seq_1010_detector (
+module sd (
     input clk,
     input rst,
     input in,
     output reg detected
 );
 
-// State encoding
-typedef enum reg [2:0] {
-    S0, // Initial
-    S1, // 1
-    S2, // 10
-    S3, // 101
-    S4  // 1010 → detected
-} state_t;
+// State Encoding (Binary Encoding)
+parameter S0 = 3'b000,
+          S1 = 3'b001,
+          S2 = 3'b010,
+          S3 = 3'b011,
+          S4 = 3'b100;
 
-state_t state, next_state;
+reg [2:0] state, next_state;
 
 always @(posedge clk or posedge rst) begin
     if (rst)
