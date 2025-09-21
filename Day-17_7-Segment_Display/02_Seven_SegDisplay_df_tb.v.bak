@@ -2,7 +2,7 @@
 
 module seven_segdisplay_df_tb;
 reg [3:0] bcd;
-wire [7:0] seg;
+wire [6:0] seg;
 
 seven_segdisplay_df uut (.bcd(bcd), .seg(seg));
 

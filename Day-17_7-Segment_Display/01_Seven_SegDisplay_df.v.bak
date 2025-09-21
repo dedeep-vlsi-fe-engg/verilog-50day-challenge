@@ -2,7 +2,7 @@
 
 module seven_segdisplay_df(
     input [3:0] bcd,
-    output reg [7:0] seg
+    output reg [6:0] seg
 );
 
 always @(*) begin
